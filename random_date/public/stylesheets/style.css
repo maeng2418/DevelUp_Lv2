@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 1.875vw;
+  height: 10%;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  /* line-height: 0.051vw; */
+  letter-spacing: -0.028vw;
+  text-align: left;
+  color: white;
+	background-color: #db5d70;
+	padding: 1vw;
+  text-decoration: none;
+  display: block;
+}
+
+.content {
+	float:left;
+}
+
+.menu {
+	display: inline-block;
+	margin: 10px;
+}
+
+.recommand {
+	width: 68.5vw;
+	height: 78%;
+}
+
+.chatting {
+	float: right;
+	height: 90%;
+}
+
+small {
+	display: block;
+	text-align: right;
+	margin-right: 20px;
+}

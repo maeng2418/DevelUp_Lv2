@@ -1,0 +1,25 @@
+.btn.btn-info{
+	width: 30vw;
+	height: 10%;
+	font-size: 20px;
+}
+
+#chatLog{
+	width: 30vw;
+	height: 85%;
+	overflow: scroll;
+}
+#name{ 
+	width: 7vw;
+	height: 2.5vw;
+}
+
+#message{ 
+	width: 16.5vw;
+	height: 2.5vw;
+}
+
+#send{
+	width: 6vw;
+	height: 2.5vw;
+}

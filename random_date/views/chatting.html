@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <title>Chat</title>
+  <link rel="stylesheet" href="/stylesheets/chatting.css">
+  <link rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js", integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<center>
+		<div>
+			<button class = "btn btn-info" type=button>
+			JooWon TALK
+			</button>	
+		</div>
+		<div>
+			<div id = chatLog class="form-control" readonly="">
+			</div>
+			<form id="chat">
+				<input id="name" class="form-contorl" type = "text"/>
+				<input id="message" class="form-contorl" type="text"/>
+				<button class="btn btn-primary" type="submit" id="send">
+					전송
+				</button>
+			</form>
+		</div>
+	</center>
+</body>
+	<script src='/socket.io/socket.io.js'></script>
+	<script src="./javascripts/chatting.js"></script>
+</html>
